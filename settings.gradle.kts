@@ -22,6 +22,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "tracer"
+rootProject.name = "allergy_tracer"
 include(":app")
 include(":shared")
+include(":desktop")
