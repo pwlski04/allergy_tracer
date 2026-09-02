@@ -4,7 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import io.github.pwlski04.allergytracer.ui.Screen
+import io.github.pwlski04.allergytracer.ui.AppNavigation
 import io.github.pwlski04.allergytracer.ui.theme.AppTheme
 
 class MainActivity: ComponentActivity(){
@@ -13,7 +13,7 @@ class MainActivity: ComponentActivity(){
         enableEdgeToEdge()
         setContent{
             AppTheme{
-                Screen()
+                AppNavigation()         //Screen()
             }
         }
     }

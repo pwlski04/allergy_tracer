@@ -1,4 +1,5 @@
-package io.github.pwlski04.allergytracer.ui.pages.settings
+/*
+package io.github.pwlski04.allergytracer.ui_old.pages.settings
 
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -14,13 +15,12 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import io.github.pwlski04.allergytracer.ui.components.Content_Group_withH2
-import io.github.pwlski04.allergytracer.ui.components.Content_Group_withTitle
-import io.github.pwlski04.allergytracer.ui.components.Content_Surface
-import io.github.pwlski04.allergytracer.ui.components.ProductListState
-import io.github.pwlski04.allergytracer.ui.components.Text_H2
-import io.github.pwlski04.allergytracer.ui.components.Text_Title
-import io.github.pwlski04.allergytracer.ui.theme.AppTheme.colors
+import io.github.pwlski04.allergytracer.ui.Content_Group_withH2
+import io.github.pwlski04.allergytracer.ui.Content_Group_withTitle
+import io.github.pwlski04.allergytracer.ui.Content_Surface
+import io.github.pwlski04.allergytracer.ui.Text_H2
+import io.github.pwlski04.allergytracer.ui.Text_Title
+import io.github.pwlski04.allergytracer.ui_old.theme.AppTheme.colors
 
 @Composable
 fun Page_Settings( changePageTo: (Int) -> Unit, productListState: ProductListState ){
@@ -112,3 +112,4 @@ fun Page_Settings( changePageTo: (Int) -> Unit, productListState: ProductListSta
     })
 
 }
+ */

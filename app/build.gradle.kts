@@ -1,10 +1,14 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.compose)
+
+
+    alias(libs.plugins.kotlin.serialization)
+    alias(libs.plugins.ksp)
 }
 
 android {
-    namespace = "com.example.allergytracer"
+    namespace = "io.github.pwlski04.allergytracer"
     compileSdk {
         version = release(37) {
             minorApiLevel = 1
@@ -12,7 +16,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.allergytracer"
+        applicationId = "io.github.pwlski04.allergytracer"
         minSdk = 24
         targetSdk = 37
         versionCode = 1
@@ -53,7 +57,33 @@ dependencies {
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.material3)
     implementation(libs.androidx.foundation)
+    implementation(libs.play.services.analytics.impl)
+    implementation(libs.androidx.datastore.core)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+
+    // Networking
+    implementation(libs.retrofit)
+    implementation(libs.converter.kotlinx.serialization)
+    implementation(libs.logging.interceptor)
+    implementation(libs.kotlinx.serialization.json)
+
+    // Compose <-> ViewModel + lifecycle-aware state
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
+    implementation(libs.androidx.lifecycle.runtime.compose)
+
+    // Navigation between the two screens
+    implementation(libs.androidx.navigation.compose)
+
+    // Image loading
+    implementation(libs.coil.compose)
+    implementation(libs.androidx.compose.material.icons.extended)
+
+    // Local data
+    implementation(libs.androidx.room.runtime)
+    implementation(libs.androidx.room.ktx)
+    ksp(libs.androidx.room.compiler)
+    implementation("androidx.datastore:datastore-preferences:1.1.1")
 }

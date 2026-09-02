@@ -1,4 +1,4 @@
-package io.github.pwlski04.allergytracer.ui.pages.products
+/*package io.github.pwlski04.allergytracer.ui_old.pages.products
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -30,33 +30,27 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import io.github.pwlski04.allergytracer.ui.components.BigButton
-import io.github.pwlski04.allergytracer.ui.components.Content_Group_withH2
-import io.github.pwlski04.allergytracer.ui.components.Content_Group_withTitle
-import io.github.pwlski04.allergytracer.ui.components.Content_Surface
-import io.github.pwlski04.allergytracer.ui.components.Content_Surface_List
-import io.github.pwlski04.allergytracer.ui.components.Content_Surface_Overview
-import io.github.pwlski04.allergytracer.ui.components.ProductListState
-import io.github.pwlski04.allergytracer.ui.components.Text_H2
-import io.github.pwlski04.allergytracer.ui.components.Text_Title
-import io.github.pwlski04.allergytracer.ui.theme.AppTheme.colors
-
-data class Product(
-    val id: Int,
-    val brand: String,
-    val name: String,
-    val ingredients: Set<String>,
-    val reacted: Boolean
-)
+import androidx.lifecycle.viewmodel.compose.viewModel
+import io.github.pwlski04.allergytracer.data.local.products.Product
+import io.github.pwlski04.allergytracer.ui.viewModels.SavedProductViewModel
+import io.github.pwlski04.allergytracer.ui.BigButton
+import io.github.pwlski04.allergytracer.ui.Content_Group_withH2
+import io.github.pwlski04.allergytracer.ui.Content_Group_withTitle
+import io.github.pwlski04.allergytracer.ui.Content_Surface
+import io.github.pwlski04.allergytracer.ui.Content_Surface_List
+import io.github.pwlski04.allergytracer.ui.Content_Surface_Overview
+import io.github.pwlski04.allergytracer.ui.Text_H2
+import io.github.pwlski04.allergytracer.ui.Text_Title
+import io.github.pwlski04.allergytracer.ui_old.theme.AppTheme.colors
 
 
 @Composable
-fun Page_Products( state: ProductListState) {
+fun Page_Products(viewModel: SavedProductViewModel = viewModel()) {
     Column(
         modifier = Modifier.fillMaxWidth(),
         verticalArrangement = Arrangement.spacedBy(48.dp)
     ){
-        with(state){
+        with(viewModel){
             Add_Product_Group(::save, currentlyEditing)        // same as Add_Product_Group(addProduct = { product -> addProduct(product) }
             Logged_Product_Group(productList, ::delete)
         }
@@ -296,4 +290,4 @@ fun Logged_Product(expanded: Boolean, product: Product, deleteSavedProduct: (Pro
             } else null,
         verticalAlignment = Alignment.Top
     )
-}
+}*/

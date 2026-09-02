@@ -1,4 +1,4 @@
-package io.github.pwlski04.allergytracer.ui.pages.ranking
+/*package io.github.pwlski04.allergytracer.ui_old.pages.ranking
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -15,14 +15,13 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import io.github.pwlski04.allergytracer.ui.components.Content_Group_withH2
-import io.github.pwlski04.allergytracer.ui.components.Content_Group_withTitle
-import io.github.pwlski04.allergytracer.ui.components.Content_Surface
-import io.github.pwlski04.allergytracer.ui.components.Content_Surface_Overview
-import io.github.pwlski04.allergytracer.ui.components.ProductListState
-import io.github.pwlski04.allergytracer.ui.components.Text_H2
-import io.github.pwlski04.allergytracer.ui.components.Text_Title
-import io.github.pwlski04.allergytracer.ui.theme.AppTheme.colors
+import io.github.pwlski04.allergytracer.ui.Content_Group_withH2
+import io.github.pwlski04.allergytracer.ui.Content_Group_withTitle
+import io.github.pwlski04.allergytracer.ui.Content_Surface
+import io.github.pwlski04.allergytracer.ui.Content_Surface_Overview
+import io.github.pwlski04.allergytracer.ui.Text_H2
+import io.github.pwlski04.allergytracer.ui.Text_Title
+import io.github.pwlski04.allergytracer.ui_old.theme.AppTheme.colors
 
 @Composable
 fun Page_Ingredients_Ranking( state: ProductListState ){
@@ -76,3 +75,4 @@ fun Ingredient_Card(idx: Int, name: String, totalReactionsContaining: Int, suspi
         })
     })
 }
+*/

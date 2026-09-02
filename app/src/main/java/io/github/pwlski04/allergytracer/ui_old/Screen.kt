@@ -1,4 +1,4 @@
-package io.github.pwlski04.allergytracer.ui
+/*package io.github.pwlski04.allergytracer.ui_old
 
 import androidx.compose.foundation.ScrollState
 import androidx.compose.foundation.background
@@ -29,13 +29,12 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import io.github.pwlski04.allergytracer.ui.components.ProductListState
-import io.github.pwlski04.allergytracer.ui.pages.disclaimer_text.Page_Disclaimer_Text
-import io.github.pwlski04.allergytracer.ui.pages.disclaimer_text.Page_Disclaimer_Verification
-import io.github.pwlski04.allergytracer.ui.pages.products.Page_Products
-import io.github.pwlski04.allergytracer.ui.pages.ranking.Page_Ingredients_Ranking
-import io.github.pwlski04.allergytracer.ui.pages.settings.Page_Settings
-import io.github.pwlski04.allergytracer.ui.theme.AppTheme.colors
+import io.github.pwlski04.allergytracer.ui.screens.disclaimer.Page_Disclaimer_Text
+import io.github.pwlski04.allergytracer.ui.screens.disclaimer.Page_Disclaimer_Verification
+import io.github.pwlski04.allergytracer.ui_old.pages.products.Page_Products
+import io.github.pwlski04.allergytracer.ui_old.pages.ranking.Page_Ingredients_Ranking
+import io.github.pwlski04.allergytracer.ui_old.pages.settings.Page_Settings
+import io.github.pwlski04.allergytracer.ui_old.theme.AppTheme.colors
 
 
 @Composable
@@ -125,3 +124,4 @@ fun NavBar( changePageTo: (Int) -> Unit ){
         }
     }
 }
+ */

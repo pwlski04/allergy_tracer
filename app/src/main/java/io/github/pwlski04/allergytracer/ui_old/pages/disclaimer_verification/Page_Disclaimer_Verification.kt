@@ -1,5 +1,5 @@
-package io.github.pwlski04.allergytracer.ui.pages.disclaimer_text
-
+package io.github.pwlski04.allergytracer.ui_old.pages.disclaimer_text
+/*
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
@@ -18,13 +18,13 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import io.github.pwlski04.allergytracer.ui.components.BigButton
-import io.github.pwlski04.allergytracer.ui.components.Content_Group_withTitle
-import io.github.pwlski04.allergytracer.ui.components.Content_List
-import io.github.pwlski04.allergytracer.ui.components.Content_Surface
-import io.github.pwlski04.allergytracer.ui.components.Text_H1
-import io.github.pwlski04.allergytracer.ui.components.Text_Title
-import io.github.pwlski04.allergytracer.ui.theme.AppTheme.colors
+import io.github.pwlski04.allergytracer.ui.BigButton
+import io.github.pwlski04.allergytracer.ui.Content_Group_withTitle
+import io.github.pwlski04.allergytracer.ui.Content_List
+import io.github.pwlski04.allergytracer.ui.Content_Surface
+import io.github.pwlski04.allergytracer.ui.Text_H1
+import io.github.pwlski04.allergytracer.ui.Text_Title
+import io.github.pwlski04.allergytracer.ui_old.theme.AppTheme.colors
 
 @Composable
 fun ColumnScope.Page_Disclaimer_Verification( changePageTo: (Int) -> Unit){
@@ -59,5 +59,5 @@ fun List_Element_MC(modifier: Modifier, text: String){
 
         }
     )
-
 }
+ */

@@ -1,5 +1,5 @@
-package io.github.pwlski04.allergytracer.ui.pages.disclaimer_text
-
+package io.github.pwlski04.allergytracer.ui_old.pages.disclaimer_text
+/*
 import androidx.compose.foundation.layout.ColumnScope
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.size
@@ -15,11 +15,11 @@ import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.fromHtml
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import io.github.pwlski04.allergytracer.ui.components.BigButton
-import io.github.pwlski04.allergytracer.ui.components.Content_Group_withTitle
-import io.github.pwlski04.allergytracer.ui.components.Content_Surface
-import io.github.pwlski04.allergytracer.ui.components.Text_Default
-import io.github.pwlski04.allergytracer.ui.components.Text_Title
+import io.github.pwlski04.allergytracer.ui.BigButton
+import io.github.pwlski04.allergytracer.ui.Content_Group_withTitle
+import io.github.pwlski04.allergytracer.ui.Content_Surface
+import io.github.pwlski04.allergytracer.ui.Text_Default
+import io.github.pwlski04.allergytracer.ui.Text_Title
 
 @Composable
 fun ColumnScope.Page_Disclaimer_Text( changePageTo: (Int) -> Unit ){
@@ -48,3 +48,4 @@ fun ColumnScope.Page_Disclaimer_Text( changePageTo: (Int) -> Unit ){
         BigButton("Continue", enabled = disclaimerAccepted, onClick = { changePageTo(-1) })
     })
 }
+ */
